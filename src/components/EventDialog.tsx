@@ -146,7 +146,8 @@ export function EventDialog({
           </div>
           <div className="grid gap-2">
             <Label>Category</Label>
-            <Select value={color} onValueChange={setColor}>
+            <Select value={color} onValueChange={(value: string) => setColor(value as "work" | "other" | "personal")}>
+
               <SelectTrigger>
                 <SelectValue />
               </SelectTrigger>
