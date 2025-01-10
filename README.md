@@ -68,3 +68,7 @@ A modern, feature-rich calendar application built with React and shadcn/ui.
 - Clean and maintainable code structure
 - Comprehensive error handling
 - Responsive design
+
+## Deploy 
+
+-Deploy link - https://quiet-figolla-f555b3.netlify.app/
